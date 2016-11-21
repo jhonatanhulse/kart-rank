@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+jar {
+    manifest {
+        attributes(
+            'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+            'Main-Class': 'kartrank.KartRankInitializer'
+        )
+    }
+}
