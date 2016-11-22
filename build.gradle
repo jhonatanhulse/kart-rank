@@ -12,7 +12,7 @@ dependencies {
 jar {
     manifest {
         attributes(
-                'Main-Class': 'kartrank.KartRankInitializer'
+                'Main-Class': 'kartrank.AppInitializer'
         )
     }
     from {

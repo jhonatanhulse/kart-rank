@@ -3,9 +3,9 @@ package kartrank;
 /**
  * Class responsible for initializing the kart rank application
  */
-public class KartRankInitializer {
+public class AppInitializer {
 
     public static void main(String[] args) {
-        System.out.println("KartRankInitializer");
+        System.out.println("AppInitializer");
     }
 }
