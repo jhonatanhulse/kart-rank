@@ -1,0 +1,21 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.+'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'kartrank.AppInitializer'
+        )
+    }
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
