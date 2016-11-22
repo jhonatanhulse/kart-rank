@@ -16,6 +16,8 @@ public class Lap {
 
     private Float averageSpeed;
 
+    private Pilot pilot;
+
     public void setNumber(Integer number) {
         this.number = number;
     }
@@ -46,5 +48,13 @@ public class Lap {
 
     public Float getAverageSpeed() {
         return averageSpeed;
+    }
+
+    public void setPilot(Pilot pilot) {
+        this.pilot = pilot;
+    }
+
+    public Pilot getPilot() {
+        return pilot;
     }
 }
