@@ -1,4 +1,4 @@
-package kartrank;
+package kartrank.domain;
 
 import java.time.Duration;
 import java.time.LocalTime;

@@ -1,4 +1,4 @@
-package kartrank;
+package kartrank.domain;
 
 /**
  * Simple POJO representing one pilot
